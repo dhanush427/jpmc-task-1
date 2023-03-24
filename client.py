@@ -55,6 +55,7 @@ if __name__ == "__main__":
 
         """ ----------- Update to get the ratio --------------- """
         prices = {}
+
         for quote in quotes:
             stock, bid_price, ask_price, price = getDataPoint(quote)
             prices[stock] = price
